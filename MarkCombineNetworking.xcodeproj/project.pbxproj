@@ -17,6 +17,10 @@
 		6B7BBC1027C444B900D31DA4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BBBE627C444B500D31DA4 /* ContentView.swift */; };
 		6B7BBC1127C444B900D31DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7BBBE727C444B800D31DA4 /* Assets.xcassets */; };
 		6B7BBC1227C444B900D31DA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B7BBBE727C444B800D31DA4 /* Assets.xcassets */; };
+		6B7BBC2227C4490300D31DA4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BBC2127C4490300D31DA4 /* Model.swift */; };
+		6B7BBC2327C4490300D31DA4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BBC2127C4490300D31DA4 /* Model.swift */; };
+		6B7BBC2527C4496E00D31DA4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BBC2427C4496D00D31DA4 /* NetworkManager.swift */; };
+		6B7BBC2627C4496E00D31DA4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7BBC2427C4496D00D31DA4 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		6B7BBC0527C444B900D31DA4 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B7BBC0927C444B900D31DA4 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		6B7BBC0B27C444B900D31DA4 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		6B7BBC2127C4490300D31DA4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6B7BBC2427C4496D00D31DA4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,8 @@
 			children = (
 				6B7BBBE527C444B500D31DA4 /* MarkCombineNetworkingApp.swift */,
 				6B7BBBE627C444B500D31DA4 /* ContentView.swift */,
+				6B7BBC2127C4490300D31DA4 /* Model.swift */,
+				6B7BBC2427C4496D00D31DA4 /* NetworkManager.swift */,
 				6B7BBBE727C444B800D31DA4 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -299,6 +307,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7BBC2527C4496E00D31DA4 /* NetworkManager.swift in Sources */,
+				6B7BBC2227C4490300D31DA4 /* Model.swift in Sources */,
 				6B7BBC0F27C444B900D31DA4 /* ContentView.swift in Sources */,
 				6B7BBC0D27C444B900D31DA4 /* MarkCombineNetworkingApp.swift in Sources */,
 			);
@@ -308,6 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B7BBC2627C4496E00D31DA4 /* NetworkManager.swift in Sources */,
+				6B7BBC2327C4490300D31DA4 /* Model.swift in Sources */,
 				6B7BBC1027C444B900D31DA4 /* ContentView.swift in Sources */,
 				6B7BBC0E27C444B900D31DA4 /* MarkCombineNetworkingApp.swift in Sources */,
 			);

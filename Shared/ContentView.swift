@@ -8,9 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var networkManager = NetworkManager()
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        List {
+            ForEach(networkManager.response?.data ?? [], id: \.self) { data in
+                Text(data.name)
+            }
+        }
+        .onAppear {
+            networkManager.fetch()
+        }
     }
 }
 
